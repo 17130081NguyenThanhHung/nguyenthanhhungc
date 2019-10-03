@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, sans-serif , Times New Roman;
+}
+
+/* Phan menu chinh */
+body{
+    background-color: gainsboro ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1#title{
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: rgba(0,0,0, 0.5);
+    margin: 20px 100px;  /* Can le khung p.t2 (20px la tren duoi, 100px la trai phai) */
+}
+#container {
+    width: 60%;
+    height: 60px;
+    background-color: #dadada;
+    margin: auto;
+}
+
+@keyframes showSub_menu {
+    50% {
+        margin-top: 2px;
+    }
+}
+
+div#menuexcersice{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #dadada;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    width: 33%;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: white;
+    background-color: rgb(16, 16, 16);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
+    padding: auto;
+    border: 1px solid #ccc;
+    margin: 18px 12px;
+    border-top: none;
+    background-color: rgb(240, 240, 240);
+}
+
+/* Nút Download */
+a.download{
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Nội dung yêu cầu */
+div#Requiments{
+    font-family: Times New Roman;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(16, 16, 16);
+    margin: 20px 10px;
+}
+
+
+/* Các tiêu đề trong tab design */
+h4.design{
+    font-family: Times New Roman;
+    text-align: left;
+    font-size: 40px;
+    color: rgb(16, 16, 16);
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
