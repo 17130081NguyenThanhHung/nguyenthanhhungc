@@ -33,8 +33,8 @@ h1#title{
 }
 
 div#menuexcersice{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left:0%;
+    padding-right: 0%;
     padding-top: 0%;
 }
 /* Style the tab */
@@ -47,7 +47,7 @@ div#menuexcersice{
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
-    width: 33%;
+    width: 32%;
     text-align: center;
     border: none;
     outline: none;
@@ -105,8 +105,67 @@ h4.design{
     font-size: 40px;
     color: rgb(16, 16, 16);
     margin: 20px 10px;
-}
 
+}
+#container #nhap{
+    background: lavender;
+    float: left;
+    clear: right;
+    height: 150px;
+    border: 2px solid #191919;
+    padding:70px 40px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+#container #nhap #select_1{
+    padding-top: 20px;
+}
+#container #nhap .nhap_a{
+    padding-top: 20px;
+
+}
+#container #nhap_1{
+    background: lavender;
+    float: right;
+    margin-right: 70px;
+    border: 2px solid #191919;
+    padding:70px 40px;
+    margin-top: 50px;
+}
+#container #nhap_1 #select_2{
+    padding-top: 20px;
+}
+#container #nhap_1 .nhap_c {
+    padding-top: 20px;
+}
+#container #nhap_2{
+    background: lavender;
+    float: right;
+    margin-right: 70px;
+    border: 2px solid #191919;
+    padding:70px 40px;
+    margin-top: 50px;
+}
+#container #nhap_2 #select_3{
+    padding-top: 20px;
+}
+#container #nhap_2 .nhap_a {
+    padding-top: 20px;
+}
+#container #nhap_3{
+    background: lavender;
+    float: right;
+    margin-right: 70px;
+    border: 2px solid #191919;
+    padding:70px 40px;
+    margin-top: 50px;
+}
+#container #nhap_3 #select_3{
+    padding-top: 20px;
+}
+#container #nhap3 .nhap_c {
+    padding-top: 20px;
+}
 
 
 
