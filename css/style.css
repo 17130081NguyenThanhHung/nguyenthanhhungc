@@ -1,9 +1,4 @@
-/*
-    Theme Name: Tempo
-    Theme URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 
 /**************************************
 link & button
@@ -153,7 +148,7 @@ a.btn-banner:hover, a.btn-banner:focus
     color: #ffffff;
     -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
     -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    /*-ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));*/
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
 }
 .container .jumbotron, .container-fluid .jumbotron {
@@ -663,7 +658,280 @@ p.cta-sub-title {
     border: 0px;
 }
 }
+
 /**************************************
 form element
 **************************************/
+/*use scenario*/
+.title1{
+    padding-left: 150px;
+}
+#Introduce{
+    margin-top: 20px;
+    height: 650px;
+    width: 880px;
+    border: 2px solid #fa4263;
+}
+#Introduce p{
+    font-size: 18px;
+}
+#Introduce b {
+    color: #3496d8;
+}
+#Introduce h4 {
+    margin-top: 70px;
+    font-size: 20px;
+    color: #3496d8;
+}
+#buoc1{
+    float: left;
+    clear: right;
+    margin-left: 65px;
+    margin-top: 70px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+#buoc1 p{
+    margin-top: 20px;
+}
+#buoc2{
+    float: left;
+    margin-top: 70px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+#buoc3{
+    float: left;
+    height: 100px;
+    margin-top: 70px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+#buoc3 p{
+    margin-top: 20px;
+}
+#buoc4{
+    float: right;
+    margin-top: 110px;
+    margin-right: 75px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+#buoc4 p{
+    margin-top: 10px;
+}
+#buoc5{
+    float: right;
+    margin-top: 110px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+#buoc5 p{
+    margin-top: 10px;
+}
+#buoc6{
+    float: right;
+    margin-top: 110px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid #fa4263;
+}
+.ten1{
+    float: left;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.ten2{
+    float: left;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.ten3{
+    float: left;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 160px;
+    margin-left: -110px;
+}
+.ten4 {
+    float: right;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.ten5 {
+    float: right;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.ten6 {
+    float: right;
+    color: #fa4263;
+    font-size: 80px;
+    margin-top: 100px;
+}
+#ve{
+    width: 900px;
+}
+#vetay_lab2{
+    float: left;
+    clear: right;
+    margin-top: 50px;
+}
+#vetay_lab2 p{
+    float: left;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: -730px;
+    color: #3496d8;
+    font-size: 23px;
+}
+#img_lab2{
+    float: left;
+    margin-top: 100px;
+}
+.DL_tab2{
+    float: right;
+    height: 50px;
+    width: 100px;
+    margin-top: 45px;
+    color: #fefefe;
+    background: #f0ad4e;
+    border: #f0ad4e;
+}
+#figma_lab2{
+    float: left;
+    margin-top: 50px;
+}
+#figma_lab2 p{
+    float: left;
+    width: 200px;
+    margin-top: 800px;
+    margin-left: -680px;
+    color: #3496d8;
+    font-size: 23px;
+}
+#fig_lab2{
+    float: left;
+    margin-top: 110px;
+}
+.DL2_tab2{
+    float: right;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    color: #fefefe;
+    background: #f0ad4e;
+    border: #f0ad4e;
+}
+.DL3_tab2{
+    float: right;
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+    color: #fefefe;
+    background: #fd7e14;
+    border: #f0ad4e;
+}
+/*implement lab2*/
+#Requi2{
+    float: left;
+    margin-top: 30px;
+    text-align: left;
+}
+#Requi2 p{
+    float: left;
+    font-size: 20px;
 
+}
+#Requi2 p b{
+    color: #2b669a;
+}
+#Imple2{
+    margin-top: 10px;
+}
+#SamSung{
+    float: left;
+    clear: right;
+    width: 700px;
+    height: 40px;
+    padding-top: 20px;
+    margin:70px;
+}
+#SamSung b{
+    font-size: 20px;
+    float: left;
+}
+#SamSung p{
+    font-size: 26px;
+    color: #bd2130;
+
+}
+#Img-samsung{
+    float: left;
+    clear: right;
+
+    width: 450px;
+    height: 450px;
+    margin-top: -200px;
+    margin-left: 90px;
+
+}
+#km{
+    float: right;
+    height: 200px;
+    margin-top: 0px;
+    width: 320px;
+    border: 2px solid #c8cbcf;
+}
+#kmai b{
+    font-size: 17px;
+    color: #2b669a;
+}
+#kmai p{
+    font-size: 16px;
+    float: left;
+}
+#mau{
+    float: left;
+    clear: right;
+    margin: 50px;
+    margin-top: 110px;
+    background: #2b669a;
+
+}
+#muahang{
+    float: right;
+    padding-bottom: 0px;
+}
+#thanhtoan{
+    margin-top: 30px;
+    width: 320px;
+    background: #F8830B;
+    color: #fefefe;
+    border: #3496d8;
+}
+
+#dat{
+    margin-top: 30px;
+    width: 320px;
+    background: #3496d8;
+    color: #fefefe;
+    border: #3496d8;
+}
+#dat p{
+    margin-top: 10px;
+}
+#dat b{
+    font-size: 20px;
+}
+#muahang p{
+    color: #fefefe;
+}
