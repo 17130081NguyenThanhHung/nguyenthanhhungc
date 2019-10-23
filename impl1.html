@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/impl1.css">
+</head>
+<body>
+<div id="container">
+    <div class="wrapper">
+        <div class="div-nav">
+            <div class="nav-left">
+                <h1><b>Hung Iphone</b></h1>
+            </div>
+            <div class="nav-right">
+                <input type="text" placeholder="search ..." name="search">
+<!--                <div class="icon">-->
+<!--                    <a><i class="fa fa-search"></i></a>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="table-content">
+            <div class="table-editable">
+                <table class="table table-bordered table-responsive-md table-striped text-center">
+                    <thead>
+                    <tr>
+                        <th class="text-center">STT</th>
+                        <th class="text-center">NAME</th>
+                        <th class="text-center">COLOR</th>
+                        <th class="text-center">SIZE</th>
+                        <th class="text-center">ORIGN</th>
+                        <th class="text-center">PRICE(vnđ)</th>
+                        <th class="text-center">ACTION</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Iphone 7</td>
+                        <td>Black</td>
+                        <td>32 GB</td>
+                        <td>USA</td>
+                        <td>7.000.000</td>
+                        <td>
+                            <button><i class="far fa-edit"><img src="https://img.icons8.com/pastel-glyph/24/000000/edit.png"></i></button>
+                            <button><i class="far fa-trash-alt"><img src="https://img.icons8.com/material-two-tone/24/000000/delete-forever.png"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Iphone X</td>
+                        <td>White</td>
+                        <td>128 GB</td>
+                        <td>USA</td>
+                        <td>20.000.000</td>
+                        <td>
+                            <button><i class="far fa-edit"><img src="https://img.icons8.com/pastel-glyph/24/000000/edit.png"></i></button>
+                            <button><i class="far fa-trash-alt"></i><img src="https://img.icons8.com/material-two-tone/24/000000/delete-forever.png"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Iphone XI</td>
+                        <td>Pink</td>
+                        <td>512 GB</td>
+                        <td>JP</td>
+                        <td>30.000.000</td>
+                        <td>
+                            <button><i class="fa fa-edit"><img src="https://img.icons8.com/pastel-glyph/24/000000/edit.png"></i></button>
+                            <button><i class="fa fa-trash-alt"><img src="https://img.icons8.com/material-two-tone/24/000000/delete-forever.png"></i></button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="top-box">
+        <div class="center-box">
+            <div class="header-button">
+                <button type="button"
+                        onclick="document.getElementById('add').style.display='block';document.getElementById('edit').style.display='none'">
+                    ADD
+                </button>
+                <button type="button"
+                        onclick="document.getElementById('edit').style.display='block'; document.getElementById('add').style.display='none'">
+                    EDIT
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="add" style="display: none">
+        <form >
+            <div class="container-add">
+                <label for="add"><b>Name</b></label>
+                <input type="text" name="name">
+
+                <label for="add"><b>Color</b></label>
+                <input type="text" name="color">
+
+                <label for="add"><b>Size</b></label>
+                <select>
+                    <option value="32">32 GB</option>
+                    <option value="64">64 GB</option>
+                    <option value="128">128 GB</option>
+                    <option value="256">356 GB</option>
+                    <option value="512">512 GB</option>
+
+                </select>
+
+                <label for="add"><b>Origin</b></label>
+                <input type="text" name="brand">
+
+                <label for="add"><b>Price</b></label>
+                <input type="text" name="brand">
+
+
+                <hr>
+
+                <button type="submit" class="registerbtn">ADD</button>
+            </div>
+        </form>
+    </div>
+    <div id="edit" style="display: none">
+        <form >
+            <div class="container-edit">
+
+                <label for="edit"><b>Name</b></label>
+                <input type="text" name="name">
+                <label for="edit"><b>Color</b></label>
+                <input type="text" name="color">
+                <label for="edit"><b>Size</b></label>
+                <select>
+                    <option value="32">32 GB</option>
+                    <option value="64">64 GB</option>
+                    <option value="128">128 GB</option>
+                    <option value="256">356 GB</option>
+                    <option value="512">512 GB</option>
+                </select>
+
+
+
+                <label for="edit"><b>Origin</b></label>
+                <input type="value" name="brand">
+
+                <label for="edit"><b>Price</b></label>
+                <input type="text" name="price">
+                <hr>
+
+                <button type="submit" class="registerbtn">EDIT</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

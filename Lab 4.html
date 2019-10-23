@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="border">
+    <div id="bg">
+        background
+    </div>
+    <div class="page">
+        <div class="sidebar">
+            <a href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li class="selected">
+                    <a href="lab1.html">Exercises</a>
+                </li>
+                <li>
+                    <a href="http://hci2019group13.tk/">Gruop-13</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <!--					<li>-->
+                <!--						<a href="blog.html">Blog</a>-->
+                <!--					</li>-->
+            </ul>
+            <form action="index.html">
+                <span>Newsletter Signup</span>
+                <input type="text" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Enter Valid Email Address':this.value;" value="Enter Valid Email Address">
+                <input type="submit" id="submit" value="submit">
+            </form>
+            <div class="connect">
+                <a href="http://facebook.com/" id="facebook"></a> <a href="http://twitter.com/" id="twitter">
+
+            </a> <a href="http://google.com/" id="googleplus"></a>
+            </div>
+            <!--				<p>-->
+            <!--					Copyright 2023-->
+            <!--				</p>-->
+            <p>
+                Design by @ Hung Nguyen
+            </p>
+        </div>
+        <div class="body">
+            <div class="services">
+                <h2>Lab 4</h2>
+                <ul class="navigation">
+                    <li class="selected">
+                        <a href="lab1.html">Lab 1</a>
+                    </li>
+                    <li>
+                        <a href="Lab%202.html">lab 2</a>
+                    </li>
+                    <li>
+                        <a href="Lab%203.html">Lab 3</a>
+                    </li>
+                    <li>
+                        <a href="Lab%204.html">Lab 4</a>
+                    </li>
+                    <li>
+                        <a href="Lab%205.html">Lab 5</a>
+                    </li>
+                </ul>
+                <!--                tạo tabs bài tập-->
+                <ul>
+                    <div class="tab-menu">
+                        <a class="tab active" id="tabA" onclick="ShowTab('tabA','Requirement')"><b>Requirement</b></a>
+                        <a class="tab" id="tabD" onclick="ShowTab('tabD', 'User-Scenario')"><b>User Scenario</b></a>
+                        <a class="tab" id="tabB" onclick="ShowTab('tabB', 'Design')"><b>Design</b></a>
+                        <a class="tab" id="tabC" onclick="ShowTab('tabC','Implement')"><b>Implement</b></a>
+                    </div>
+
+                    <div class="content-tab">
+                        <div class="content-tab-item active-tab" id="Requirement">
+                            <h3><span><b>Requirement</b></span></h3>
+                            <table>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Yêu cầu</th>
+                                </tr>
+                                <tr>
+                                    <th>1</th>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div  class="content-tab-item" id="User-Scenario">
+                            <h3><span><b>User Scenario</b></span></h3>
+                        </div>
+                        <div class="content-tab-item" id="Design">
+                            <h3><span><b>Design</b></span></h3>
+
+                        </div>
+                        <div class="content-tab-item" id="Implement">
+                            <h3><span><b>Implement</b></span></h3>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var tabs = document.getElementsByClassName("tab");
+    var contents = document.getElementsByClassName("content-tab-item");
+    function ShowTab(tab, content){
+        var i;
+        var tabs = document.getElementsByClassName("tab");
+        var contents = document.getElementsByClassName("content-tab-item");
+        var tabclick = document.getElementById(tab);
+        var contentsclick = document.getElementById(content);
+        for(i = 0; i < tabs.length; i++){
+            tabs[i].classList.remove("active");
+            contents[i].classList.remove("active-tab");
+        }
+        tabclick.classList.add("active");
+        contentsclick.classList.add("active-tab");
+    }
+</script>
+</html>
