@@ -3574,11 +3574,24 @@ a:hover,a:focus{
   border-radius: 30px;
   position: relative;
 }
-.tab .nav-tabs li.active a{
-  border: 0 none;
-  background: #214bfa;
-  color: #fff;
+/*màu khi đưa chuột vào tabs*/
+.tab .nav-tabs > li a:hover,
+.tab .nav-tabs > li a.active{
+  color:#fff;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
 }
+/*màu khi đã click chuột vào tabs*/
+.tab .nav-tabs li.active a{
+  color: #fff;
+  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+}
+/*.tab .nav-tabs li.active a{*/
+/*  border: 0 none;*/
+/*  background: #214bfa;*/
+/*  color: #fff;*/
+/*}*/
 .tab .nav-tabs li.active a:after{
   content: "";
   position: absolute;
@@ -3602,14 +3615,19 @@ a:hover,a:focus{
     margin-bottom: 10px;
   }
   .tab .nav-tabs li a{
+    /*border: 1px solid #d3d3d3;*/
     border: 1px solid #d3d3d3;
   }
   .tab .nav-tabs li.active a:after{
     border:none;
+
   }
 }
 /*kết thúc css trong tab labs*/
+
 /*lab1*/
+
+
 #Sectionlab12 img{
   padding-left: 15%;
 
