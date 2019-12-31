@@ -1,11 +1,4 @@
-/*--------------------------- Color variations ----------------------*/
-/* Medium Layout: 1280px */
-/* Tablet Layout: 768px */
-/* Mobile Layout: 320px */
-/* Wide Mobile Layout: 480px */
-/* =================================== */
-/*  Basic Style 
-/* =================================== */
+
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #8a90ff;
@@ -2453,8 +2446,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-left img {
-  width: 100%;
-  padding-left: 18%;
+  width: 95%;
+  padding-left: 16%;
+  /*border-radius: 3%;*/
 }
 
 .home-about-right {
@@ -2500,7 +2494,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 2px;
   font-size: 12px;
 }
-
+.about-video-left {
+  /*width: 300px;*/
+  border-radius: 10px;
+  box-shadow: 4px 0 20px 1px rgba(0, 0, 0, 0.15);
+  width: 47%;
+  padding-left: 5%;
+  margin-right: 3%;
+}
 .about-video-left h1 {
   padding: 20px 0;
 }
@@ -2521,9 +2522,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-video-right {
-  background: url(../img/video-bg.jpg) no-repeat center;
+  /*background: url(../img/hung1.jpg) no-repeat center;*/
   background-size: cover;
-  height: 330px;
+  /*height: 430px;*/
+
+
+  border-radius: 10px;
+
 }
 
 .about-video-right .overlay-bg {
@@ -2976,7 +2981,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-content {
-  margin-top: 10%;
+  margin-top: 8%;
   padding: 0% 0%;
   text-align: center;
 }
